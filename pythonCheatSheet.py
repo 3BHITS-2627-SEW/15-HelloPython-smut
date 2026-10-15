@@ -47,3 +47,9 @@ einString = str(einedritteVariable)
 alternativText = "Die Zahl ist: " + einString
 
 print(alternativText)
+
+def main():
+    print("Hallo Funktion!")
+
+
+main()
