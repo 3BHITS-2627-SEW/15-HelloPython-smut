@@ -30,3 +30,20 @@ eineVariable = 15
 
 datentyp = type(eineVariable)
 print("Datentyp von eineVariable:", datentyp)
+
+# formatierte Ausgabe:
+print(f"")
+
+einText = f"{eineVariable} Hilft mit nicht viel weiter"
+
+
+# eingaben von der command line
+
+einedritteVariable = input("Geb einne Zahl ein: ")
+
+# Stringumwandlung 
+einString = str(einedritteVariable)
+
+alternativText = "Die Zahl ist: " + einString
+
+print(alternativText)
