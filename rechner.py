@@ -4,4 +4,4 @@ zahl2 = input("Ganzzahlige Zahl eingeben: ")
 
 ergebnis = zahl1 + zahl2
 
-print(f"Ergebnis der Addition von Zahl 1 und Zahl 2: {ergebnis}")
+print(f"Ergebnis der Addition von {zahl1}und {zahl2}: {ergebnis}")
