@@ -49,7 +49,20 @@ alternativText = "Die Zahl ist: " + einString
 print(alternativText)
 
 def main():
-    print("Hallo Funktion!")
+    print("Hallo Main!")
 
 
 main()
+
+#main2()
+
+def main2():
+    print("Hello Function!")
+
+
+# starte nur dann funktion wenn das programm als hauptprogramm gestartet wird
+
+# -> prüfe spezial variable
+if __name__ == "__main__":
+    # programm wurde als hauptprogramm gestartet
+    main2()
