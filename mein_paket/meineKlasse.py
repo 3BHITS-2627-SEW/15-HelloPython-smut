@@ -4,6 +4,17 @@ class MeineKlasse:
         # self ist ein this pointer
 
         # name wir eine instanzvariable
-        self.name = "EineKlasse"
+        self.__name = "EineKlasse"
         # pass macht einfach nix
+    def noNoneNovember(self): # self ist immer die eigene instanz
+        # Hier kommt der Methoden Rumpf
+        
+        return("November!")
 
+
+    def get_name(self) -> str:
+        return self.__name
+
+    def set_name(self, neuer_name : str) -> None:
+        self.__name = neuer_name
+        pass

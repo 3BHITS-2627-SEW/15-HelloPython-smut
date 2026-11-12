@@ -13,7 +13,16 @@ def main():
     print("Wurzel aus 16: ", number2)
 
     meinObjekt = MeineKlasse()
-    print("Name vom Objekt: ", meinObjekt.name)
+    print("Name vom Objekt: ","Private") # IST PRIVATE:  meinObjekt.__name
+
+    print("Welcher Monat ist aktuell?", meinObjekt.noNoneNovember())
+
+    print("Der Name vom Objekt via Getter:", meinObjekt.get_name())
+
+    meinObjekt.set_name("meinObjekt")
+
+    print("Der Name vom Objekt via Getter:", meinObjekt.get_name())
+
     pass
 
 
