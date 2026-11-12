@@ -3,7 +3,7 @@ import numpy
 #bennene ein paket um
 import numpy as npy
 
-from mein_paket.meineKlasse import *
+from mein_paket.meineKlasse import MeineKlasse
 
 def main():
     number = numpy.sqrt(4)
@@ -12,7 +12,7 @@ def main():
     number2 = npy.sqrt(16)
     print("Wurzel aus 16: ", number2)
 
-    meinObjekt = Klass()
+    meinObjekt = MeineKlasse()
     print("Name vom Objekt: ", meinObjekt.name)
     pass
 

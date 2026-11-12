@@ -2,4 +2,4 @@
 
 # Hier wird definiert welche klassen und objekte verwendet werden dürfen
 
-from meineKlasse import *
+from .meineKlasse import *

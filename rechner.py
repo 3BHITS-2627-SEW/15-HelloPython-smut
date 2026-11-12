@@ -1,5 +1,5 @@
-zahl1 : int = input("Ganzzahlige Zahl eingeben: ")
-zahl2 : int = input("Ganzzahlige Zahl eingeben: ")
+zahl1 : int = int(input("Ganzzahlige Zahl eingeben: "))
+zahl2 : int = int(input("Ganzzahlige Zahl eingeben: "))
 
 
 ergebnis = zahl1 + zahl2
