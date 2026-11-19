@@ -18,3 +18,15 @@ class MeineKlasse:
     def set_name(self, neuer_name : str) -> None:
         self.__name = neuer_name
         pass
+
+    ## special-Methode
+    ## magic-Methode
+    ## dunner-Methode
+    # __METHODE__(self):
+
+    #überschreibe Methode __str__
+    # enstpricht einer ToString() Methode in C++
+    def __str__(self) -> str:
+        return f"Eine Instanz der Klasse 'MeineKlasse' mit dem Namen {self.__name}"
+
+    
